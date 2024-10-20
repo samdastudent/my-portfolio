@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamdaZain</title>
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container__header">
+        <header>
+            <a href="#profile">
+                <div class="logo scroll-offset">
+                    <img src="/assets/logo.png" alt="logo">
+                    <span>samdazain</span>
+                </div>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#profile">About Me</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#stack">Stacks</a></li>
+                    <li><a href="#certification">Certifications</a></li>
+                    <li><a href="#etc">Others</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </header>
+    </div>
+    <div class="content">
+        <div class="container__absolute container__absolute__change">
+            <div class="container avatar white__text scroll-offset" id="profile">
+                <h1>About Me</h1>
+                <img src="assets/avatar.png" alt="Samda Zain Rozaan">
+                <p>Hi F0lks!</p>
+                <p>My name is <b class="sub-title">Samda Zain Rozaan.</b></p>
+                <p>I'm 5th Informatics Student</p>
+                <p>Focusing in <b class="sub-title">Fullstack Website Development</b></p>
+                <p>Looking for Internship or Remote-Work</p>
+                <p>Let's connect!</p>
+                <button class="resume">
+                    <span>Download CV</span>
+                </button>
+                <div class="container__icon">
+                    <a href="mailto:samdazain@email.com" target="_blank">
+                        <img src="assets/icon__feature/gmail.png" alt="gmail">
+                    </a>
+                    <a href="https://www.linkedin.com/in/samdazain" target="_blank">
+                        <img src="assets/icon__feature/linkedin.png" alt="linkedin">
+                    </a>
+                    <a href="https://github.com/samdazain" target="_blank">
+                        <img src="assets/icon__feature/github.png" alt="github">
+                    </a>
+                    <a href="https://stackoverflow.com/users/23336385/samda-zain-rozaan" target="_blank">
+                        <img src="assets/icon__feature/stackovf.png" alt="stackoverflow">
+                    </a>
+                    <button id="theme-toggle">
+                        <img id="mode-icon" src="assets/icon__feature/dark.png" alt="Toggle Theme">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container__absolute">
+            <div class="container scroll-offset" id="project">
+                <h1 class="white__text__absolute">Projects</h1>
+                <div class="filter__btn">
+                    <span data-project="allproject" class="active">All</span>
+                    <span data-project="web">Web</span>
+                    <span data-project="uiux">UIUX</span>
+                    <span data-project="mobile">Mobile</span>
+                    <span data-project="ml">ML</span>
+                    <span data-project="cyberproject">Cyber Security</span>
+                </div>
+                <div class="container__widget">
+                    <div class="widget project__card" data-category="web">
+                        <img src="assets/projects/project1.png" alt="">
+                        <span class="title__project">Questionnaire-Web</span>
+                        <div class="list__stack">
+                            <span>React</span>
+                            <span>Next.JS</span>
+                            <span>Tailwind</span>
+                            <span>Mongo</span>
+                        </div>
+                    </div>
+                    <div class="widget project__card" data-category="uiux">
+                        <img src="assets/projects/project1.png" alt="">
+                        <span class="title__project">Ekpedisi-X</span>
+                        <div class="list__stack">
+                            <span>Laravel</span>
+                            <span>React</span>
+                            <span>Tailwind</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                    <div class="widget project__card" data-category="mobile">
+                        <img src="assets/projects/project1.png" alt="">
+                        <span class="title__project">PayPay.</span>
+                        <div class="list__stack">
+                            <span>React</span>
+                            <span>NextJS</span>
+                            <span>ExpressJS</span>
+                            <span>Tailwind</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="widget project__card" data-category="ml">
+                        <img src="assets/projects/project1.png" alt="">
+                        <span class="title__project">Coming Soon</span>
+                        <!-- <span>React</span>
+                        <span>NextJS</span>
+                        <span>ExpressJS</span>
+                        <span>Tailwind</span>
+                        <span>PostgreSQL</span> -->
+                    </div>
+                    <div class="widget project__card" data-category="cyberproject">
+                        <img src="assets/projects/project1.png" alt="">
+                        <span class="title__project">Coming Soon</span>
+                        <!-- <span>React</span>
+                        <span>NextJS</span>
+                        <span>ExpressJS</span>
+                        <span>Tailwind</span>
+                        <span>PostgreSQL</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container__absolute container__absolute__change">
+            <div class="container container__h1 scroll-offset" id="stack">
+                <h1>Stacks</h1>
+                <div class="container__widget">
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/html.png" alt="">
+                        <span>HTML</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/css.png" alt="">
+                        <span>CSS</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/js.png" alt="">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/php.png" alt="">
+                        <span>PHP</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/tailwind.png" alt="">
+                        <span>Tailwind</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/bootstrap.png" alt="">
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/figma.png" alt="">
+                        <span>Figma</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/react.png" alt="">
+                        <span>React</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/nodejs.png" alt="">
+                        <span>Node JS</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/laravel.png" alt="">
+                        <span>Laravel</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/next.png" alt="">
+                        <span>Next JS</span>
+                    </div>
+                    <div class="widget__stack blacktowhite">
+                        <img src="assets/icon__stacks/express.png" alt="">
+                        <span>ExpressJS</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/mongo.png" alt="">
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/postgre.png" alt="">
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/mysql.png" alt="">
+                        <span>MySQL</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/dart.png" alt="">
+                        <span>Dart</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/flutter.png" alt="">
+                        <span>Flutter</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/java.png" alt="">
+                        <span>Java</span>
+                    </div>
+                    <div class="widget__stack">
+                        <img src="assets/icon__stacks/python.png" alt="">
+                        <span>Python</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container__absolute">
+            <div class="container scroll-offset" id="certification">
+                <h1 class="white__text__absolute">Certifications</h1>
+                <div class="container__widget">
+                    <div class="widget certification">
+                        <img src="assets/certifications/be_expert.png" alt="">
+                        <span class="title__project">Back End Developer Expert -</span>
+                        <span>Dicoding</span>
+                    </div>
+                    <div class="widget certification">
+                        <img src="assets/certifications/flutter_intermediete.png" alt="">
+                        <span class="title__project">Multi-Platform App Developer(Flutter) -</span>
+                        <span>IDCamp</span>
+                    </div>
+                    <div class="widget certification">
+                        <img src="assets/certifications/be_assistant.png" alt="">
+                        <span class="title__project">Back End & Cloud Class Assistant -</span>
+                        <span>GDSC UPN "Veteran" East Java</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__absolute container__absolute__change">
+            <div class="container blog__container scroll-offset" id="etc">
+                <h1 class="white__text">Others</h1>
+                <div class="widget__etc">
+                    <span data-filter="all" class="active">All</span>
+                    <span data-filter="article">Article</span>
+                    <span data-filter="publication">Publication</span>
+                    <span data-filter="cyber">Cyber Security Stuff</span>
+                </div>
+                <div class="container blog">
+                    <div class="widget blog__card" data-category="article">
+                        <h3>Card 1</h3>
+                        <span>#article</span>
+                    </div>
+                    <div class="widget blog__card" data-category="publication">
+                        <h3>Card 2</h3>
+                        <span>#publication</span>
+                    </div>
+                    <div class="widget blog__card" data-category="cyber">
+                        <h3>Card 3</h3>
+                        <span>#cybersecuritystuff</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container__footer">
+            <div class="footer__content">
+                <div class="footer__main">
+                    <a href="#profile"> <img src="/assets/logo.png" alt="logo">
+                        <span>samdazain</span></a>
+                    <br>
+                    <span class="sub-span">(selfclaim) Fullstack Web Developer</span>
+                </div>
+                <div class="link__wrapper">
+                    <div class="link">
+                        <h3>Contact</h3>
+                        <a href="https://wa.me/62895371464684">+62895371464684</a>
+                        <a href="mailto:samdazain@email.com">samdazain@gmail.com</a>
+                        <a href="discordapp.com/users/989772147587162123">Discord</a>
+                    </div>
+                    <div class="link">
+                        <h3>Account</h3>
+                        <a href="https://www.linkedin.com/in/samdazain">LinkedIn</a>
+                        <a href="https://github.com/samdazain">Github</a>
+                        <a href="https://www.instagram.com/samdazain">Instagram</a>
+                    </div>
+                    <div class="link">
+                        <h3>Content</h3>
+                        <a href="#profile">About Me</a>
+                        <a href="#project">Projects</a>
+                        <a href="#stack">Stacks</a>
+                        <a href="#certification">Certifications</a>
+                        <a href="#etc">Others</a>
+                    </div>
+                </div>
+            </div>
+            <span class="copyright">Copyright &copy; 2024 Samda Zain. Built with Native Language</span>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script src="theme.js" defer></script>
+    <script src="filterBlogs.js" defer></script>
+    <script src="filterProjects.js" defer></script>
+</body>
+
+</html>
